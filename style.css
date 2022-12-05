@@ -233,21 +233,52 @@ body{
         display: block;
         margin-right: 2rem;
     }
-    .li{
-        display: block;
-        font-size: 3rem;
+    .overlayer{
+        z-index: 2;
         position: fixed;
-        right: -100%;
+        display: flex;
+        flex-direction: column;
+        top:0;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        background-color: hsl(36, 100%, 99%);
+        box-shadow: -20rem 0rem rgba(0, 0, 0, 0.5);
+    }
+    .overlayer img{
+        align-self: flex-end;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+        /* filter: brightness(100%); */
+    }
+    .li{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 2rem;
+        list-style: none;
+        margin-top: 8rem;
+        /* right: -100%; */
+    }
+    .li li{
+        margin: 2rem;
     }
     .li li a{
-        color: white;
+        /* color: black; */
         background-color: hsl(36, 100%, 99%);
-        margin-top: 3rem;
+        margin: 3rem;
+        margin-left: 0rem;
+        font-weight: bold;
+        color:hsl(240, 3%, 27%) ;
     }
     .main{
        margin: 2rem;
        padding: 0rem;
-
+       z-index: 1;
+       /* opacity: 0.8; */
+       /* filter: brightness(30%); */
     }
    
     .mainsection{
