@@ -54,7 +54,7 @@ body{
 .mainsection{
     display: flex;
     padding-top: 2rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 /* firstsection starts */
@@ -67,7 +67,7 @@ body{
     width: 41rem;
     height: 16rem;
     
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 .subsection{
     display: flex;
@@ -115,7 +115,7 @@ body{
 .aside{
     margin-left: 2rem;
     /* border: 1px solid black; */
-    height: 24rem;
+    height: 25rem;
     width: 18rem;
     padding: 1rem 0.5rem 1rem 0.5rem;
     background-color:hsl(240, 100%, 5%) ;
@@ -310,6 +310,7 @@ body{
     }
 
     .secondsection{
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         width: inherit;
